@@ -3,9 +3,13 @@ import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Sliderbooks.css"
+interface cardProps {
+  title: string;
+  bookImg: string;
+}
 
 
-export default function Sliderbooks() {
+export default function Sliderbooks({title,bookImg}:cardProps) {
   const settings = {
     dots: true,
     infinite: true,
