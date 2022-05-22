@@ -9,8 +9,8 @@ function Header() {
 	
 	return (
 		<React.Fragment>
-			<header className='headerDiv'>All Books
-			<Searchcomponent />
+			<header className='headerDiv'><h1>All Books</h1>
+			
 			</header>
 		</React.Fragment>
 			

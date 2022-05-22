@@ -1,0 +1,9 @@
+.container{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+.container p{
+    padding: 10px auto;
+}

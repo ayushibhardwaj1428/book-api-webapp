@@ -10,6 +10,7 @@ interface cardProps {
 
 
 export default function Sliderbooks({title,bookImg}:cardProps) {
+  console.log("reach here");
   const settings = {
     dots: true,
     infinite: true,
@@ -22,34 +23,12 @@ export default function Sliderbooks({title,bookImg}:cardProps) {
       <h2 className='h2'> Multiple items </h2>
       <Slider {...settings}>
         <div className='cards'>
-          <h3>1</h3>
+          <img src={bookImg}></img>
+          <h6>{title}</h6>
         </div>
-        <div className='cards'>
-          <h3>2</h3>
-        </div>
-        <div className='cards'>
-          <h3>3</h3>
-        </div>
-        <div className='cards'>
-          <h3>4</h3>
-        </div>
-        <div className='cards'>
-          <h3>5</h3>
-        </div>
-        <div className='cards'>
-          <h3>6</h3>
-        </div>
-        <div className='cards'>
-          <h3>7</h3>
-        </div>
-        <div className='cards'>
-          <h3>8</h3>
-        </div>
-        <div className='cards'>
-          <h3>9</h3>
-        </div>
-      </Slider>
-    </div>
+        
+     </Slider>
+   </div>
   );
 }
 
