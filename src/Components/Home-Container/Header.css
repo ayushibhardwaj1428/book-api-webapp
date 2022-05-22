@@ -1,0 +1,53 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+
+
+/* .homeContainer{
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    background-color: cyan;
+
+} */
+
+.headerDiv{
+    padding: 10px;
+    position: relative;
+    width: 1181px;
+    height: 31px;
+    left: 61px;
+    border-radius: 4px;
+    /* background-color: cadetblue; */
+    top: 50px;
+    
+
+}
+
+.search {
+    position: absolute;
+    border-radius: 5px;
+    left: 80%;
+    height: 31px;
+    border-color: #c42f2f;
+
+}
+
+.submitBtn{
+    position: absolute;
+    height: 35px;
+    width: 87px;
+    left: 1107px;
+}
+
+
+
+
+
